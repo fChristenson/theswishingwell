@@ -1,0 +1,16 @@
+{
+  "name": "theswishingwell",
+  "version": "1.0.0",
+  "description": "Swish some money to charity and post your wish anonymously on the list of wishes.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Fredrik Christenson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  }
+}
