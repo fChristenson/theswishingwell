@@ -11,8 +11,12 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
-app.get("/onska", (req, res) => {
+app.get("/wish", (req, res) => {
   res.render("wish");
+});
+
+app.get("/faq", (req, res) => {
+  res.render("faq");
 });
 
 module.exports = app;
